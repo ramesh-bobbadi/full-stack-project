@@ -57,7 +57,7 @@ CORS_ALLOWED_ORIGINS = [
     'http://localhost:5173',
 ]
 
-STATIC_ROOT = BASE_DIR/'staticfiles',
+STATIC_ROOT = str(BASE_DIR / 'staticfiles')
 
 ROOT_URLCONF = 'backend.urls'
 
